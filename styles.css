@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+
+/* img {height: 200px;
+	 width: 200px;
+	} */
+
+/* Set overall container width */
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+/* Ensure image containers align and images fit */
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Column width specification */
+td:first-child, td:last-child {
+    width: 200px;
+}
+
+td:nth-child(2) {
+    width: 600px;
+}
+
+/* Optional - Text styling */
+td {
+    vertical-align: top;
+    padding: 10px;
+    text-align: left;
+}
